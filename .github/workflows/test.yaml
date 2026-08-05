@@ -1,1 +1,13 @@
-
+name: Testing
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+jobs:
+  amal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Amal step
+        run: |
+          echo "welocme to push in Main Branch"
