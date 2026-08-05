@@ -19,6 +19,16 @@ on:
       - locked
       - unlocked
       - transferred
+  workflow_dispatch:
+     inputs:
+       environment:
+         description:  "Enter Environment"
+         required: true
+         default: "dev"   
+       version:
+         description: "Enter version"
+         required: true
+         default: "dev"
 jobs:
   Amal_learning_issues:
     runs-on: ubuntu-latest
@@ -27,5 +37,8 @@ jobs:
       uses: actions/checkout@v4
     - name: Learning issues
       
-      run: echo "Issues is working fine "
+      run: |
+        echo "Issues is working fine "
+        echo "Environment: ${{ inputs.environment }}"
+        echo "Version: ${{ inputs.version }}"
 
