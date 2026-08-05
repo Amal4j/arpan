@@ -9,4 +9,4 @@ jobs:
       - name: Amal_Learning
         run: |
           echo "Welcome to Secheudle"
-          echo "Amal is learning schedule CRON Job" 
+          echo "Amal is  schedule CRON Job" 
