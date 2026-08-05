@@ -39,6 +39,7 @@ jobs:
       
       run: |
         echo "Issues is working fine "
+        echo $GITHUB_WORKSPACE
         echo "Environment: ${{ inputs.environment }}"
         echo "Version: ${{ inputs.version }}"
 
