@@ -24,11 +24,11 @@ on:
        environment:
          description:  "Enter Environment"
          required: true
-         default: "dev"   
+         default: ""   
        version:
          description: "Enter version"
          required: true
-         default: "dev"
+         default: ""
 jobs:
   Amal_learning_issues:
     runs-on: ubuntu-latest
