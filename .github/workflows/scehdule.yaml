@@ -1,0 +1,11 @@
+name: learning scheudle Job cron
+on:
+  schedule:
+    cron: '*/5 * * * *'
+job:
+  Amal_learning:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Amal_Learning
+        run: |
+        echo "Welcome to Secheudle"
