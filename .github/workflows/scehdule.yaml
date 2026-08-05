@@ -1,7 +1,7 @@
 name: learning scheudle Job cron
 on:
   schedule:
-    cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   Amal_learning:
     runs-on: ubuntu-latest
