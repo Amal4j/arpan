@@ -1,0 +1,14 @@
+name: learning trigger type Issuse
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  Amal_learning_issues:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Learning issues
+      uses: actions/checkout@v4
+    - name: Learning issues
+      run: echo "how r u "
+
