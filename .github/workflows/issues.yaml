@@ -3,6 +3,22 @@ on:
   issues:
     types:
       - opened
+      - opened
+      - edited
+      - deleted
+      - closed
+      - reopened
+      - labeled
+      - unlabeled
+      - assigned
+      - unassigned
+      - milestoned
+      - demilestoned
+      - pinned
+      - unpinned
+      - locked
+      - unlocked
+      - transferred
 jobs:
   Amal_learning_issues:
     runs-on: ubuntu-latest
