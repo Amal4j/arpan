@@ -4,3 +4,4 @@
 we are now starting this activity, code will be share in further stages
 Jo hum kar rahy hai woh hee sahi hai.. 
 feature/conflict wala kacode galt hai so we should not be worried for him actions
+I will plan from my feature/conflict branch
